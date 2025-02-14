@@ -8,62 +8,61 @@
 </head>
  <body class="" id="top">
 
-  <header class="bg-white fixed top-0 w-full shadow">
+  <header class=" top-0 w-full ">
 
-    <div>
-      <img class="w-full absolute top-0 left-0 object-cover transition-transform duration-10000 translate-x-0 active" src="/images/template/0bc16e52ee2d2336569d508a7c697e64.jpg" alt="image" id="imag">
-    </div>
+    <nav class="flex fixed top-0 items-center z-50 absolute justify-between w-full h-20">
 
-     <nav id="main-nav"
-    class="bg-white max-w-5xl mx-auto font-poppins p-6 flex items-center justify-between">
-
-    <a href="top" 
-    class="flex" 
-    aria-label="page acceuil">
-      <img src="/images/icones/icon_developer_16019.png" class=" -z-10 hidden md:w-7 md:inline md:mr-4" alt="">
-
-      <span aria-hidden="true" class="text-lg lg:text-xl z-10">DécorHome</span>
-    </a>
-
-    <button aria-label="toggle-button" aria-expanded="false" id="menu-btn" class=" z-10 cursor-pointer w-7 md:hidden">
-      <img src="/images/icones/1738779663792.jpg" alt="">
-    </button>
-
-    <ul id="toggled-menu" class="w-full absolute top-full left-0 -translate-y-full -z-10 text-gray-800 border-b border-gray-200 flex flex-col md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row">
-
-      
-      <li class="py-4 md:py-0 md:mr-6">
-        <a href="#acceuil" class="text-sm uppercase font-semibold w-full hover:text-blue-800">
-          Acceuil
-        </a>
-      </li>
-
-      <li class="py-4 md:py-0 md:mr-6"><a href="#produit" class="text-sm uppercase font-semibold w-full hover:text-blue-800">
-        Produits
+      <a href="#" class="flex items-center ml-8">
+        <img class="w-8 hidden md:inline md:w-8" src="/images/icones/icon_developer_16019.png" alt="">
+        <span class="font-bold text-2xl text-blue-950">DécorHome</span>
       </a>
-    </li>
 
-      <li class="py-4 md:py-0 md:mr-6">
-        <a href="#service" class="text-sm uppercase font-semibold w-full hover:text-blue-800">
-          Services
-        </a>
-      </li>
+      <ul class=" w-full left-0 absolute top-full -translate-y-0 flex -z-10 flex-col md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row items-center" id="toggled-menu">
+         
+        <li class="py-4 md:py-0 md:mr-6">
+          <a class="font-bold p-3 hover:border-b hover:border-blue-950 hover:border-b-3" href="#produit">Acceuil</a>
+        </li>
 
-      <li class="py-4 md:py-0 md:mr-6">
-        <a href="#contact" class="text-sm uppercase font-semibold w-full hover:text-blue-800">
-          Contact
-        </a>
-      </li>
+        <li class="py-4 md:py-0 md:mr-6">
+          <a class="font-bold p-3 hover:border-b hover:border-blue-950 hover:border-b-3" href="#produit">Produits</a>
+        </li>
 
-      <li class="py-4 md:py-0 md:mr-6">
-        <a href="#apropos" class="text-sm uppercase font-semibold w-full hover:text-blue-800">
-          Apropos
-        </a>
-      </li>
-    </ul>
+        <li class="py-4 md:py-0 md:mr-6">
+          <a class="font-bold p-3 hover:border-b hover:border-blue-950 hover:border-b-3" href="#service">Services</a>
+        </li>
+
+        <li class="py-4 md:py-0 md:mr-6">
+          <a class="font-bold p-3 hover:border-b hover:border-blue-950 hover:border-b-3" href="#contact">Contact</a>
+        </li>
+
+        <li class="py-4 md:py-0 md:mr-6">
+          <a class="font-bold p-3 hover:border-b hover:border-blue-950 hover:border-b-3" href="apropos">Apropos</a>
+        </li>
+      </ul>
+
+        <div class="items-center flex">
+          <button class="text-white absolute bg-blue-900 rounded p-0.5 border-none" id="btn">créer-compte</button>
+        </div>
+
+        <button aria-label="toggle-button" aria-expanded="false" id="menu-btn">
+          <img class="w-7 items-center md:hidden inline cursor-pointer mr-4  bg-amber-800" src="/images/icones/1738779663792.jpg" alt="" id="menu-btn">
+        </button>
   </nav>
+  <div class=" max-w-full max-h-full">
+    <img class="w-full h-screen" src="/images/template/0bc16e52ee2d2336569d508a7c697e64.jpg" alt="image" id="imag">
+  </div>
 
-  </header>
+  <div class="absolute top-48 left-52">
+    <h1 class="text-5xl font-bold text-blue-800 ">Design <strong class="text-yellow-800 text-4xl ">&</strong> Décor</h1>
+    <h2 class="text-4xl font-bold ml-28 mt-5 text-blue-800">Interieur</h2>
+    <span class="text-black font-bold ">"Nous sommes la solution pour votre espace habitable"</span>
+    <div>
+      <button class="bg-blue-900 p-2 pl-4 pr-4 text-white text-2xl border-none rounded mt-7">bouton</button>
+    </div>
+</header>
+
+
+
 
 
 

@@ -11,7 +11,7 @@
  setInterval(() => {
   imgElement.src = image[currentIndex];
   currentIndex = (currentIndex + 1) % image.length;
- }, 9000);
+ }, 3000);
 
 // const images = [
 //   "/images/template/0bc16e52ee2d2336569d508a7c697e64.jpg",
