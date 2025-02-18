@@ -11,36 +11,8 @@
  setInterval(() => {
   imgElement.src = image[currentIndex];
   currentIndex = (currentIndex + 1) % image.length;
- }, 3000);
+ }, 10000);
 
-// const images = [
-//   "/images/template/0bc16e52ee2d2336569d508a7c697e64.jpg",
-//   "/images/template/2e53a5ce9664dee4a2177bee61716893.jpg",
-//   "/images/template/95b9a7760166dbe7190c301a57fdc2aa.jpg"
-// ];
-
-// let currentIndex = 0;
-// const carouselImage = document.getElementById("carousel-image");
-// const leftButton = document.getElementById("left");
-// const rightButton = document.getElementById("right");
-
-// setInterval(() => {
-//   function displayImage() {
-//     carouselImage.src = images[currentIndex];
-//   }
-  
-//   leftButton.addEventListener("click", () => {
-//     currentIndex = (currentIndex - 1 + images.length) % images.length;
-//     displayImage();
-//   });
-  
-  
-//   rightButton.addEventListener("click", () => {
-//     currentIndex = (currentIndex + 1 ) % images.length;
-//     displayImage();
-//   });
-//   displayImage();
-// }, 3000);
 
 // script navbar
 const toggleMenuBtn = document.querySelector('#menu-btn');
