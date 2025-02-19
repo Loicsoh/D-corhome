@@ -6,7 +6,7 @@
   <link href="./output.css" rel="stylesheet">
   <title>DecorHome</title>
 </head>
- <body class="" id="top">
+ <body class="" id="acceuil">
 
   <header class=" top-0 w-full ">
 
@@ -20,7 +20,7 @@
       <ul class=" w-full left-0 absolute top-full -translate-y-0 flex -z-10 flex-col md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row items-center" id="toggled-menu">
          
         <li class="py-4 md:py-0 md:mr-6">
-          <a class="font-bold p-3 hover:border-b hover:border-blue-950 hover:border-b-3" href="#produit">Acceuil</a>
+          <a class="font-bold p-3 hover:border-b hover:border-blue-950 hover:border-b-3" href="#acceuil">Acceuil</a>
         </li>
 
         <li class="py-4 md:py-0 md:mr-6">
@@ -72,7 +72,7 @@
 
 
  <!-- presentation des Produits -->
-  <div class="mt-12 bg-amber-50 ">
+  <div id="produit" class="mt-12 bg-amber-50 ">
     <h1 class="flex justify-center font-bold text-blue-800 text-3xl ">Nos Produits</h1>
     <div class="flex justify-center items-center flex-wrap">
       <div class=" w-96">
@@ -96,7 +96,7 @@
 
 
 <!-- presentation de services -->
-  <div class="mt-12 bg-amber-50 ">
+  <div id="service" class="mt-12 bg-amber-50">
     <h1 class="flex justify-center font-bold text-blue-800 text-3xl ">Nos Services</h1>
     <div class="flex justify-center items-center flex-wrap">
     
@@ -118,8 +118,20 @@
     </div>
   </div>
 
-  <div>
-    
+  <div id="contact" class="  mt-12 bg-amber-50 flex-wrap">
+    <h1 class="flex justify-center font-bold text-blue-800 text-3xl">Contactez-nous</h1>
+    <div class="flex justify-center">
+      <form class="min-w-96 flex flex-col mt-5" action="#">
+        <div class="">
+          <input class=" border-2 border-amber-50  border-b-black text-2xl rounded" type="text" placeholder="Entrez votre nom">
+        <input class=" border-2 border-amber-50 mt-12 border-b-black text-2xl rounded" type="text" placeholder="Entrez votre prenom">
+        </div>
+        <input class=" border-2 border-amber-50 mt-12 border-b-black text-2xl rounded" type="text" placeholder="Saisissez votre message">
+        <button class="bg-blue-900  p-2 pl-4 pr-4 mt-12 text-white text-2xl border-none rounded mt-7 hover:bg-white hover:text-blue-800 hover:border-amber-500">
+          <a href="#">Envoyez</a>
+        </button>
+      </form>
+    </div>
   </div>
 
 

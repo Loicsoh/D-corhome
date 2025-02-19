@@ -614,6 +614,9 @@
   .max-w-full {
     max-width: 100%;
   }
+  .min-w-96 {
+    min-width: calc(var(--spacing) * 96);
+  }
   .-translate-y-0 {
     --tw-translate-y: calc(var(--spacing) * -0);
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -653,6 +656,12 @@
   .border-none {
     --tw-border-style: none;
     border-style: none;
+  }
+  .border-amber-50 {
+    border-color: var(--color-amber-50);
+  }
+  .border-b-black {
+    border-bottom-color: var(--color-black);
   }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
@@ -769,6 +778,13 @@
       @media (hover: hover) {
         border-bottom-style: var(--tw-border-style);
         border-bottom-width: 3px;
+      }
+    }
+  }
+  .hover\:border-amber-500 {
+    &:hover {
+      @media (hover: hover) {
+        border-color: var(--color-amber-500);
       }
     }
   }
