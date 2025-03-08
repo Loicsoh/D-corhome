@@ -575,6 +575,9 @@
   .ml-96 {
     margin-left: calc(var(--spacing) * 96);
   }
+  .block {
+    display: block;
+  }
   .flex {
     display: flex;
   }
@@ -680,6 +683,9 @@
   }
   .p-3 {
     padding: calc(var(--spacing) * 3);
+  }
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
@@ -814,6 +820,11 @@
       @media (hover: hover) {
         color: var(--color-blue-800);
       }
+    }
+  }
+  .sm\:text-amber-500 {
+    @media (width >= 40rem) {
+      color: var(--color-amber-500);
     }
   }
   .md\:static {
